@@ -3,7 +3,8 @@
 
     // app module
     angular
-        .module("app", ["ngRoute", "7minWorkout"])
+        .module("app",
+                ["ngRoute", 'ngSanitize', "7minWorkout", "mediaPlayer", 'ui.bootstrap', "ngAnimate"])
         .config(function ($routeProvider, $sceDelegateProvider) {
 
             $sceDelegateProvider.resourceUrlWhitelist([

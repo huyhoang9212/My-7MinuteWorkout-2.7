@@ -66,6 +66,26 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\15seconds.wav" />
+    <Content Include="content\321.wav" />
+    <Content Include="content\crunches.wav" />
+    <Content Include="content\highknees.wav" />
+    <Content Include="content\jumpingjacks.wav" />
+    <Content Include="content\lunge.wav" />
+    <Content Include="content\nextup.mp3" />
+    <Content Include="content\nextup.wav" />
+    <Content Include="content\plank.wav" />
+    <Content Include="content\pushupandrotate.wav" />
+    <Content Include="content\pushups.wav" />
+    <Content Include="content\sideplank.wav" />
+    <Content Include="content\squats.wav" />
+    <Content Include="content\stepup.wav" />
+    <Content Include="content\tick.mp3" />
+    <Content Include="content\tick10s.mp3" />
+    <Content Include="content\tricepdips.wav" />
+    <Content Include="content\wallsit.wav" />
+    <Content Include="js\root.js" />
+    <Content Include="js\vendor\angular-media-player.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -100,6 +120,7 @@
     <Content Include="partials\description-panel.html" />
     <Content Include="partials\finish.html" />
     <Content Include="partials\start.html" />
+    <Content Include="partials\workout-history.html" />
     <Content Include="partials\workout.html" />
     <Content Include="Web.config" />
   </ItemGroup>
