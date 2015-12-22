@@ -84,9 +84,20 @@
     <Content Include="content\tick10s.mp3" />
     <Content Include="content\tricepdips.wav" />
     <Content Include="content\wallsit.wav" />
+    <Content Include="img\running.png" />
+    <Content Include="js\7MinWorkout\workoutvideos.js" />
     <Content Include="js\root.js" />
+    <Content Include="js\shared\directives.js" />
+    <Content Include="js\shared\model.js" />
+    <Content Include="js\shared\services.js" />
+    <Content Include="js\vendor\angular-local-storage.js" />
     <Content Include="js\vendor\angular-media-player.js" />
+    <Content Include="js\WorkoutBuilder\exercise.js" />
+    <Content Include="js\WorkoutBuilder\services.js" />
+    <Content Include="js\WorkoutBuilder\workout.js" />
     <Content Include="packages.config" />
+    <Content Include="js\vendor\LICENSE.angular.media.player" />
+    <Content Include="js\vendor\LICENSE.local.storage" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -120,8 +131,16 @@
     <Content Include="partials\description-panel.html" />
     <Content Include="partials\finish.html" />
     <Content Include="partials\start.html" />
+    <Content Include="partials\video-panel.html" />
     <Content Include="partials\workout-history.html" />
     <Content Include="partials\workout.html" />
+    <Content Include="partials\workoutbuilder\exercise.html" />
+    <Content Include="partials\workoutbuilder\exercises.html" />
+    <Content Include="partials\workoutbuilder\left-nav-exercises.html" />
+    <Content Include="partials\workoutbuilder\left-nav-main.html" />
+    <Content Include="partials\workoutbuilder\top-nav.html" />
+    <Content Include="partials\workoutbuilder\workout.html" />
+    <Content Include="partials\workoutbuilder\workouts.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
